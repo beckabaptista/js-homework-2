@@ -21,5 +21,40 @@ console.log(score2);
 var score3 = bball(89, 89);
 console.log(score3);
 
+//If exercises with Strings
+
+
+
+function greetings(yourname) {
+  if(yourname.toLowerCase() == "becka") {
+    console.log("Hello, group member");
+  }
+
+  else if(yourname.toLowerCase() == "kirsten"){
+    console.log("Hello, group member");
+  }
+
+  else if(yourname.toLowerCase() == "andrew") {
+    console.log("Hello, teacher");
+  }
+
+  else {
+    console.log("Hello!");
+  }
+
+}
+
+var greet1 = greetings("becka");
+console.log(greet1);
+
+var greet2 = greetings("jon");
+console.log(greet2);
+
+var greet3 = greetings("andrew");
+console.log(greet3);
+
+var promptname = prompt("What is your name?");
+var thing = greetings(promptname) //this defines the function greeting + the prompt answer
+console.log(thing)
 
 </script>
